@@ -264,7 +264,9 @@ A curated list of free everyday software tools for Windows (files, documents, ph
 
     - [TMDB Box Sets](https://github.com/jellyfin/jellyfin-plugin-tmdbboxsets) - Automatically create movie box sets based on TMDb collections.
 
+    - [Youtube Metadata](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin) - Automatically retrieves metadata for content from Youtube.
 
+	
   - Clients:
  
     - [Fladder](https://github.com/DonutWare/Fladder) - Free, modern, smooth client for Android, macOS, iOS, Linux, Web, and Windows.
