@@ -6,9 +6,20 @@
 - **Ventoy:** The absolute king of bootable USB drives. Instead of flashing a single ISO to a thumb drive and wiping it every time, you install Ventoy to the drive *once*. From then on, you simply drag and drop your Windows ISOs, Linux distros, and WinPE recovery discs directly onto the drive like standard files. Ventoy automatically generates a boot menu at startup, letting you carry dozens of bootable environments on a single piece of hardware.
 
 
+## File System Navigation, Custom Explorers & Indexing
+
+- **Everything (by Voidtools):** The absolute greatest search utility ever created for Windows. Unlike the slow, resource-heavy built-in Windows Search indexing, *Everything* hooks directly into the low-level NTFS Master File Table (MFT). Because it reads the raw file system journal, it locates any file or folder across terabytes of data **instantly** as you type, while consuming practically zero background CPU. It is a mandatory install to bypass the sluggish search bars of modern Windows.
+
+- **Double Commander:** A magnificent, open-source cross-platform dual-panel file manager inspired by Total Commander. It features two side-by-side active windows, an internal text editor with syntax highlighting, a built-in file viewer for hex or binary formats, multi-rename capabilities, and tabbed browsing. It is the ultimate tool for technicians moving large volumes of files between drives with keyboard-driven precision.
+
+- **Dolphin (KDE Frameworks for Windows):** A powerhouse alternative to standard Windows Explorer. Celebrated as the ultimate file manager on Linux, modern daily builds of Dolphin have been cleanly compiled to run natively on Windows via Qt6. For users who prefer a streamlined, polished UNIX environment over the generic Windows layout, Dolphin can be heavily themed, tuned, and customized with specific icon packs, top-bar window rules, and sidebars to look and behave almost identically to the **macOS Finder**—complete with tab splitting and native embedded terminal panels. 
+
+
 ## Partition, Boot & Storage Management
 
 - **MiniTool Partition Wizard (v11.5 / v11.3 / v10):** Version 11.5 remains the final release where OS Migration and full Disk Cloning were left completely unrestricted in the Free tier. Version 11.3 marks the final iteration compatible with legacy environments like Windows XP, while Version 11 adds the enhanced GPT/UEFI logic required to manipulate modern partition maps without choking.
+
+- **WinDirStat:** The definitive open-source disk space analyzer. When a Windows Server or workstation drive is mysteriously filling up, running WinDirStat generates a complete visual treemap of the entire disk storage layout. It represents every single file as a color-coded rectangle proportionate to its actual data size, allowing you to instantly pinpoint giant hidden cache logs or forgotten system back-ups at a single glance.
 
 - **GSmartControl:** A brilliant, deep graphical user interface for `smartctl` (from the smartmontools package). While CrystalDiskInfo is excellent for quick health statuses, GSmartControl allows you to query advanced internal storage drive telemetry and command the drive firmware to execute thorough **Short, Extended, and Conveyance self-tests** to actively flush out hidden, destabilizing bad sectors on HDDs and SSDs.
 
@@ -87,5 +98,8 @@
 ## Audio & Video Infrastructure
 
 - **K-Lite Codec Pack (Mega variant recommended):** The absolute definitive media playback infrastructure pack for Windows. Fresh installations of Windows Server, Enterprise LTSC, and IoT LTSC are completely missing the underlying software splitters and decoders required to render audio and video streams. Installing the K-Lite pack deploys the clean, optimized **LAV Filters** framework and includes **Media Player Classic - Home Cinema (MPC-HC)**, allowing your system to seamlessly play any audio or video format ever devised (including MKV, HEVC, H.264, FLAC, and WebM) with flawless hardware acceleration and zero resource strain.
+
+- **VLC Media Player:** The legendary, open-source, swiss-army knife video player. Independent of the system's underlying OS codecs, VLC contains its own internal, highly optimized library of decoders. It plays virtually any file extension, raw stream, network protocol, or disc image instantly with robust hardware decoding, making it an essential baseline player for stripped-down environments.
+
 
 
