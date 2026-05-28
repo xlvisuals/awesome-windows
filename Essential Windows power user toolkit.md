@@ -108,7 +108,7 @@
 
 ## Productivity & documents
 
-- **7-Zip: **The premier open-source archival tool, delivering vast efficiency over stock Windows zip integration and unparalleled compression ratios through its native `.7z` format. [https://7-zip.org/](https://7-zip.org/) 
+- **7-Zip:** The premier open-source archival tool, delivering vast efficiency over stock Windows zip integration and unparalleled compression ratios through its native `.7z` format. [https://7-zip.org/](https://7-zip.org/) 
 
 - **LibreOffice:** The ultimate open-source office productivity suite. It handles document processing, spreadsheets, presentations, and vector drawing with native support for standard formats, completely free of corporate account hooks or licensing popups.  [https://www.libreoffice.org/](https://www.libreoffice.org/) 
 
