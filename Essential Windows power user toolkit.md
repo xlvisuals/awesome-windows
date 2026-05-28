@@ -141,6 +141,15 @@
 - **ShareX:** The premier open-source screen capture and documentation utilities. It enables instant scrolling-window screen grabs, annotations, and precise image markups, making it an essential tool for creating rapid technical guides or tutorials. [https://getsharex.com/](https://getsharex.com/) 
 
 
+## Audio & video infrastructure
+
+- **K-Lite Codec Pack (Mega variant recommended):** The absolute definitive media playback infrastructure pack for Windows. Fresh installations of Windows Server, Enterprise LTSC, and IoT LTSC are completely missing the underlying software splitters and decoders required to render audio and video streams. Installing the K-Lite pack deploys the clean, optimized **LAV Filters** framework and includes **Media Player Classic - Home Cinema (MPC-HC)**, allowing your system to seamlessly play any audio or video format ever devised (including MKV, HEVC, H.264, FLAC, and WebM) with flawless hardware acceleration and zero resource strain. [https://www.codecguide.com/download\_kl.htm](https://www.codecguide.com/download_kl.htm)
+
+- **MusicBee:** The ultimate Music Manager and Player. Makes it easy to manage, find, and play music files on your computer without trying to sell you more.  [https://getmusicbee.com/](https://getmusicbee.com/)
+
+- **VLC Media Player:** The legendary, open-source, swiss-army knife video player. Independent of the system's underlying OS codecs, VLC contains its own internal, highly optimized library of decoders. It plays virtually any file extension, raw stream, network protocol, or disc image instantly with robust hardware decoding, making it an essential baseline player for stripped-down environments. [https://www.videolan.org/vlc/](https://www.videolan.org/vlc/) 
+
+
 ## Graphics, audio & video editing
 
 - **OBS Studio:** The premier open-source software for video recording and live streaming. It features highly optimized hardware acceleration hooks, allowing you to capture high-framerate desktop feeds and system audio natively without dragging down CPU cycles. [https://obsproject.com/](https://obsproject.com/) 
@@ -156,10 +165,3 @@
 - **Inkscape:** The definitive open-source vector graphics editor. It uses SVG as its native format, providing robust tools for scale-independent illustrations, diagramming, and line art manipulation. [https://inkscape.org/](https://inkscape.org/) 
 
 - **IrfanView:** One of the fastest, most enduring image viewers ever designed for Windows. It opens virtually any graphic format instantly and includes powerful batch-conversion scripts to crop, rename, or reformat thousands of images in a single click. [https://www.irfanview.com/](https://www.irfanview.com/) 
-
-
-## Audio & video infrastructure
-
-- **K-Lite Codec Pack (Mega variant recommended):** The absolute definitive media playback infrastructure pack for Windows. Fresh installations of Windows Server, Enterprise LTSC, and IoT LTSC are completely missing the underlying software splitters and decoders required to render audio and video streams. Installing the K-Lite pack deploys the clean, optimized **LAV Filters** framework and includes **Media Player Classic - Home Cinema (MPC-HC)**, allowing your system to seamlessly play any audio or video format ever devised (including MKV, HEVC, H.264, FLAC, and WebM) with flawless hardware acceleration and zero resource strain. [https://www.codecguide.com/download\_kl.htm](https://www.codecguide.com/download_kl.htm) 
-
-- **VLC Media Player:** The legendary, open-source, swiss-army knife video player. Independent of the system's underlying OS codecs, VLC contains its own internal, highly optimized library of decoders. It plays virtually any file extension, raw stream, network protocol, or disc image instantly with robust hardware decoding, making it an essential baseline player for stripped-down environments. [https://www.videolan.org/vlc/](https://www.videolan.org/vlc/) 
