@@ -138,7 +138,7 @@
 
 - **Macad3D:** Open-source parametric 3D CAD tool focused on mechanical design and part modeling. Macad3D combines a clean, predictable graphical interface with Python scripting for programmatic model creation and automation – very useful for quickly creating or modifying parts for 3D printing. [https://macad3d.net/](https://macad3d.net/) 
 
-- **ShareX:** The premier open-source screen capture and documentation utilities. It enables instant scrolling-window screen grabs, annotations, and precise image markups, making it an essential tool for creating rapid technical guides or tutorials. [https://getsharex.com/](https://getsharex.com/) 
+- **ShareX:** The premier open-source screen capture and documentation utilities. It enables instant scrolling-window screen grabs, annotations, and precise image markups, making it an essential tool for creating rapid technical guides or tutorials. [https://getsharex.com/](https://getsharex.com/). The last version to run on Windows 7 was [18.0.0](https://github.com/ShareX/ShareX/releases/tag/v18.0.0) 
 
 
 ## Audio & video infrastructure
