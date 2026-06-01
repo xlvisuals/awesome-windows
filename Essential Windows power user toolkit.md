@@ -34,9 +34,9 @@
 
 - **Double Commander:** A fast, open-source cross-platform dual-panel file manager inspired by Total Commander. It features fast file copy, an internal text editor with syntax highlighting, a built-in file viewer for hex or binary formats, multi-rename capabilities, and tabbed browsing. It is the ultimate tool for technicians moving large volumes of files between drives with keyboard-driven precision. Download from [https://doublecmd.sourceforge.io/](https://doublecmd.sourceforge.io/). For a familiar Windows look set the following configuration options:
   - Configuration > Options:
-	  - Fonts > Main Font: Segue UI Regular 9pt
-	  - Icons > File panel: 16x16
-	  - Icons > Disk panel: 24x24  
+	  - Fonts > Main Font: Segoe UI Regular 9pt
+	  - Icons > File panel: 16x16 (or 20x20)
+	  - Icons > Disk panel: 24x24 (or 30x30)
 
 - **Dolphin (KDE Frameworks for Windows):** A powerhouse alternative to standard Windows Explorer. Celebrated as the ultimate file manager on Linux, modern daily builds of Dolphin have been cleanly compiled to run natively on Windows via Qt6. For users who prefer a streamlined, polished UNIX environment over the generic Windows layout, Dolphin can be heavily themed, tuned, and customized with specific icon packs, top-bar window rules, and sidebars to look and behave almost identically to the **macOS Finder**—complete with tab splitting and native embedded terminal panels.  [https://cdn.kde.org/ci-builds/system/dolphin/master/windows/](https://cdn.kde.org/ci-builds/system/dolphin/master/windows/) 
 
