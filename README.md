@@ -54,7 +54,7 @@ A curated list of free everyday software tools for Windows (files, documents, ph
 | **PTGui (Panorama Stitching)** | [Hugin](https://hugin.sourceforge.io/), [ExifFixer](https://exiffixer.com/) |
 | **Serato DJ / Traktor Pro** | [Mixxx](https://mixxx.org/) |
 | **SketchUp Pro / Chief Architect** | [Sweet Home 3D](http://www.sweethome3d.com/) |
-| **Snagit** | [Greenshot](https://getgreenshot.org/), [ShareX](https://getgreenshot.org/downloads/) |
+| **Snagit** | [Greenshot](https://getgreenshot.org/), [ShareX](https://github.com/ShareX/ShareX) |
 | **SolarWinds / PRTG Network Monitor** | [NMap](https://nmap.org/), [Wireshark](https://www.wireshark.org/), [Sniffnet](https://sniffnet.net/), [iPerf3](https://iperf.fr/iperf-download.php) |
 | **Start11 / StartAllBack** | [Open Shell](https://github.com/Open-Shell/Open-Shell-Menu) |
 | **StarUML (Pro) / LucidChart** | [Modelio](https://www.modelio.org/), [StarUML](https://staruml.io/), [Violet](https://sourceforge.net/projects/violet/) |
@@ -220,7 +220,7 @@ A curated list of free everyday software tools for Windows (files, documents, ph
 
 - [Git](https://gitforwindows.org/) – best source code version control, free. See [Forgejo](https://forgejo.org/) (linux) for self-hosting repos, CI/CD, Wiki.
 
-- [Greenshot](https://getgreenshot.org/) or [ShareX](https://getgreenshot.org/downloads/) –  free and open-source screenshot program.
+- [Greenshot](https://getgreenshot.org/) or [ShareX](https://github.com/ShareX/ShareX) –  free and open-source screenshot program.
 
 - [Godot](https://godotengine.org/) – free and open-source game engine for 2D, 3D and XR game development.
 
