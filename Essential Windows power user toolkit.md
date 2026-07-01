@@ -1,4 +1,6 @@
 # Essential Windows power user toolkit  
+
+A curated directory of lightweight, open-source, and utility-driven applications for maximizing Windows efficiency, security, and productivity.
   
 ## Deployment & multi-boot
 
