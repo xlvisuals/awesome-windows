@@ -1,4 +1,4 @@
-# Awesome Windows 
+# Awesome Windows
 
 A curated collection of awesome software, utilities, and power-user tools to supercharge your Windows experience. 
 
