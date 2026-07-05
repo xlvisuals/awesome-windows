@@ -63,13 +63,16 @@ A copy is also available to download from Archive.org:
 
 #### 4. Activate Windows
 
-See [https://massgrave.dev/](https://massgrave.dev/) for details, and follow "Method 1: PowerShell (Recommended)".
+If you are in an organizational/corporate environment, your company likely uses a KMS host to activate machines automatically.
+
+If you have a Multiple Activation Key (MAK) from your Visual Studio Subscription (formerly MSDN), Volume Licensing Service Center (VLSC), or Microsoft Microsoft 365 Admin Center, you can activate it directly via the Settings app or the command line.
+
+For alternative activation methods see [https://massgrave.dev/](https://massgrave.dev/) for details, and follow "Method 1: PowerShell (Recommended)".
 
 - Click the Start button (Windows logo).
 - Search for **PowerShell** in the Start menu, right-click it, and select "**Run as administrator**."
 - Copy and paste this command and hit enter:
-
-```
+```powershell
     irm \[[https://get.activated.win](https://get.activated.win/)\]([https://get.activated.win/](https://get.activated.win/)) | iex
 ```
 
@@ -83,11 +86,9 @@ Windows 11 has hidden many useful context items in a 2nd window (e.g. delete, pr
 - Click the Start button (Windows logo).
 - Search for **cmd** in the Start menu, right-click it, and select "**Run as administrator**."
 - Copy and paste this command and hit enter:
-
-```
+```cmd
     reg.exe add "HKCU\\\\Software\\\\Classes\\\\CLSID\\\\\\\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2\\\}\\\\InprocServer32" /f /ve
 ```
-
 - In the menu that appears, press 1 for "HWID".
 - Then press the number corresponding to "Activate Windows".
 
@@ -107,7 +108,7 @@ Windows 11 includes two additional security layers to prevent malware from injec
 - Click the Start button (Windows logo).
 - Search for **cmd** in the Start menu, right-click it, and select "**Run as administrator**."
 - Paste this command and hit enter:
-```
+```cmd
     reg add "HKLM\\SYSTEM\\CurrentControlSet\\Control\\DeviceGuard\\Scenarios\\HypervisorEnforcedCodeIntegrity" /v "Enabled" /t REG\_DWORD /d 0 /f
 ```
 - The setting will take effect after you restart Windows
@@ -128,9 +129,9 @@ Although Windows 11 IoT Enterprise LTSC comes with a lot less clutter, bloat and
 
 - [https://github.com/Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat)
 - Click the Start button (Windows logo).
-- Search for **cmd** in the Start menu, right-click it, and select "**Run as administrator**."
+- Search for **PowerShell** in the Start menu, right-click it, and select "**Run as administrator**."
 - Copy and paste this command and hit enter:
-```
+```powershell
         & (\[scriptblock\]::Create((irm ["https://debloat.raphi.re/"](https://debloat.raphi.re/))))
 ```
 - Wait for the script to automatically download Win11Debloat.
