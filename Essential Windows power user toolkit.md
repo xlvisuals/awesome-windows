@@ -162,6 +162,8 @@ A curated directory of lightweight, open-source, and utility-driven applications
 
 - **ColorPicker:** The stand-alone ColorPicker tool from PowerToys, without the bloat. [https://github.com/martinchrzan/ColorPicker ](https://github.com/martinchrzan/ColorPicker)
 
+- **Caesium Image Compressor:** One of the most popular image optimization tools available for reducing the file size for publishing, sending and sharing digital pictures.  [https://saerasoft.com/caesium/](https://saerasoft.com/caesium/)
+
 - **OBS Studio:** The premier open-source software for video recording and live streaming. It features highly optimized hardware acceleration hooks, allowing you to capture high-framerate desktop feeds and system audio natively without dragging down CPU cycles. [https://obsproject.com/](https://obsproject.com/) 
 
 - **Shotcut:** A magnificent, free, open-source, non-linear video editor. It handles native timeline editing for hundreds of modern video formats without requiring complex codec imports or heavy, expensive subscription software. [https://www.shotcut.org/](https://www.shotcut.org/) 
