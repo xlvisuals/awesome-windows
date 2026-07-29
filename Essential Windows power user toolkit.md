@@ -7,6 +7,7 @@ A curated directory of lightweight, open-source, and utility-driven applications
 - **Ventoy:** The absolute king of bootable USB drives. Instead of flashing a single ISO to a thumb drive and wiping it every time, you install Ventoy to the drive *once*. From then on, you simply drag and drop your Windows ISOs, Linux distros, and WinPE recovery discs directly onto the drive like standard files. Ventoy automatically generates a boot menu at startup, letting you carry dozens of bootable environments on a single piece of hardware.  
 [https://www.ventoy.net/en/index.html](https://www.ventoy.net/en/index.html)
 
+
 ## Package managers
 
 - **Ninite:** Ninite is a user-friendly, web-based tool that lets you select from a curated list of popular Windows applications and downloads a single, custom installer to install or update them all at once automatically. [https://www.imgburn.com](https://ninite.com/)
@@ -56,8 +57,6 @@ A curated directory of lightweight, open-source, and utility-driven applications
 - **MiniTool Partition Wizard Free:** One of the most full-featured free partition management programs for Windows that allows users to create, resize, format, clone and manage disk partitions conveniently. Version 11.5 remains the final release where OS Migration and full Disk Cloning were left completely unrestricted in the free tier. Version 10.2.1 is the last version compatible with legacy OS and hardware (without SSE2), while version 11.3 marks the final iteration compatible with Windows XP.  
 [https://archive.org/details/mini-tool-partition-wizard-free](https://archive.org/details/mini-tool-partition-wizard-free) 
 
-- **WinDirStat:** The definitive open-source disk space analyzer. When a Windows Server or workstation drive is mysteriously filling up, running WinDirStat generates a complete visual treemap of the entire disk storage layout. It represents every single file as a color-coded rectangle proportionate to its actual data size, allowing you to instantly pinpoint giant hidden cache logs or forgotten system back-ups at a single glance. [https://windirstat.net/](https://windirstat.net/) 
-
 - **GSmartControl:** A brilliant, deep graphical user interface for `smartctl` (from the smartmontools package). While CrystalDiskInfo is excellent for quick health statuses, GSmartControl allows you to query advanced internal storage drive telemetry and command the drive firmware to execute thorough **Short, Extended, and Conveyance self-tests **to detect bad sectors on HDDs and SSDs. [https://github.com/ashaduri/gsmartcontrol](https://github.com/ashaduri/gsmartcontrol) 
 
 - **Bootice:** A deeply powerful, compact utility designed to manipulate the Master Boot Record (MBR) and Partition Boot Record (PBR). It allows you to back up, restore, or completely rewrite boot records, configure disk partitions directly, and edit the Windows BCD (Boot Configuration Data) store. [https://www.majorgeeks.com/files/details/bootice\_64\_bit.html](https://www.majorgeeks.com/files/details/bootice_64_bit.html)
@@ -103,13 +102,18 @@ A curated directory of lightweight, open-source, and utility-driven applications
 
 ## File system maintenance & recovery
 
+- **Ant Renamer:** A legendary, completely free, and lightweight mass-renaming utility. It handles large volumes of files and folders instantly using customizable rule stacks—including string replacement, sequential enumeration, letter case transformation, regular expressions, and parsing audio ID3/image EXIF metadata headers. [https://www.antp.be/software/renamer](https://www.antp.be/software/renamer) 
+
+- **BleachBit:** A powerful, open-source privacy utility and storage cleaner. It targets deep application caches, broken temporary folders, system logs, and vacuumed registry tracks without carrying the spyware or background tracking features of commercial cleaning tools. [https://www.bleachbit.org/](https://www.bleachbit.org/) 
+
+- **InstallerClean:** An open-source tool to safely clean up C:\Windows\Installer, the hidden Windows folder that quietly eats more of your disk space with every Windows Update.
+[https://github.com/no-faff/InstallerClean](https://github.com/no-faff/InstallerClean)
+
 - **LockHunter:** A critical file-locking diagnostic utility. When Windows claims a folder or file is "in use by another program," LockHunter reveals the blocking process and lets you forcefully kill it, rename the target file, or queue its permanent deletion upon the next system reboot. [https://lockhunter.com/](https://lockhunter.com/) 
 
 - **Recuva:** Created by Piriform, this remains one of the most accessible, highly effective file-recovery utilities for recovering accidentally deleted files, emptied recycle bins, or data lost from formatted flash drives and memory cards. [https://www.ccleaner.com/recuva](https://www.ccleaner.com/recuva) 
 
-- **Ant Renamer:** A legendary, completely free, and lightweight mass-renaming utility. It handles large volumes of files and folders instantly using customizable rule stacks—including string replacement, sequential enumeration, letter case transformation, regular expressions, and parsing audio ID3/image EXIF metadata headers. [https://www.antp.be/software/renamer](https://www.antp.be/software/renamer) 
-
-- **BleachBit:** A powerful, open-source privacy utility and storage cleaner. It targets deep application caches, broken temporary folders, system logs, and vacuumed registry tracks without carrying the spyware or background tracking features of commercial cleaning tools. [https://www.bleachbit.org/](https://www.bleachbit.org/) 
+- **WinDirStat:** The definitive open-source disk space analyzer. When a Windows Server or workstation drive is mysteriously filling up, running WinDirStat generates a complete visual treemap of the entire disk storage layout. It represents every single file as a color-coded rectangle proportionate to its actual data size, allowing you to instantly pinpoint giant hidden cache logs or forgotten system back-ups at a single glance. [https://windirstat.net/](https://windirstat.net/) 
 
 - **WinMerge:** A brilliant visual difference-and-merging tool for text documents, scripts, and folder trees. It maps two iterations of files side-by-side, visually highlighting every added, dropped, or altered line of code. [https://winmerge.org/](https://winmerge.org/) 
 
@@ -117,10 +121,20 @@ A curated directory of lightweight, open-source, and utility-driven applications
 
 - **Macrium Reflect Free:** Create and restore disks, partitions, or individual files and folders. The free edition has been discontinued but is still widely used. [https://www.majorgeeks.com/files/details/macrium\_reflect\_free\_edition.html](https://www.majorgeeks.com/files/details/macrium_reflect_free_edition.html)
 
+- **dism:** Windows built-in command to clean up superseded Windows Update patches. Open a Command Prompt or PowerShell as Administrator, then run
+  - dism.exe /Online /Cleanup-Image /StartComponentCleanup
+  
+  If you want to make current updates permanent and reclaim maximum space, add the /ResetBase switch:
+  - dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
+  
+  (note: this prevents rolling back previous Windows updates)
+
 
 ## Productivity & documents
 
 - **7-Zip:** The premier open-source archival tool, delivering vast efficiency over stock Windows zip integration and unparalleled compression ratios through its native `.7z` format. [https://7-zip.org/](https://7-zip.org/)
+
+- **Git:** Git is not only the premiere source code management system, it also provides a robust collection of essential GNU/Linux command-line utilities (compiled to run natively on Windows) such as bash, rsync, ssh, tar, grep, sed, awk, diff, curl, wget and many more. [https://git-scm.com/](https://git-scm.com/)
 
 - **LibreOffice:** The ultimate open-source office productivity suite. It handles document processing, spreadsheets, presentations, and vector drawing with native support for standard formats, completely free of corporate account hooks or licensing popups.  [https://www.libreoffice.org/](https://www.libreoffice.org/) 
 
@@ -152,7 +166,12 @@ A curated directory of lightweight, open-source, and utility-driven applications
 
 - **ShareX:** The premier open-source screen capture and documentation utilities. It enables instant scrolling-window screen grabs, annotations, and precise image markups, making it an essential tool for creating rapid technical guides or tutorials. [https://getsharex.com/](https://getsharex.com/). The last version to run on Windows 7 was [18.0.0](https://github.com/ShareX/ShareX/releases/tag/v18.0.0) 
 
+- **Win11Debloat:** A PowerShell script to remove pre-installed apps, disable telemetry, remove intrusive interface elements and much more.
+[https://github.com/Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat)
+
 - **Zed:** A lightning-fast, open-source code editor written in Rust. It utilizes GPU acceleration to deliver near-zero layout and typing latency, combining a highly minimalist workspace and project browser with native visual debugging and Language Server Protocol (LSP) code intelligence. [https://zed.dev/](https://zed.dev/)
+
+
 
 ## Audio & video infrastructure
 
