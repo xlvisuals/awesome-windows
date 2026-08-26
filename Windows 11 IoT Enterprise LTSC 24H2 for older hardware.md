@@ -137,7 +137,7 @@ Although Windows 11 IoT Enterprise LTSC comes with a lot less clutter, bloat and
 - Search for **PowerShell** in the Start menu, right-click it, and select "**Run as administrator**."
 - Copy and paste this command and hit enter:
 ```powershell
-        & (\[scriptblock\]::Create((irm ["https://debloat.raphi.re/"](https://debloat.raphi.re/))))
+        & ([scriptblock]::Create((irm "https://debloat.raphi.re/")))
 ```
 - Wait for the script to automatically download Win11Debloat.
 - Carefully read through and follow the on-screen instructions.
