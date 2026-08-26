@@ -58,8 +58,13 @@ A copy is also available to download from Archive.org:
 #### 3. Boot from USB and install
 
 - Insert the USB Stick and turn on or restart your computer.
-- You can turn off secure boot and TMP in your PC BIOS, the LTSC version of Windows 11 doesn't need it.
+- You can turn off secure boot (recommended) and TMP in your PC BIOS, the LTSC version of Windows 11 doesn't need it.
 - Follow on-screen instructions to install Windows 11 IoT Enterprise LTSC
+- If you are stuck on **"Let's connect you to a network"** or the Microsoft account sign-in screen, press `Shift+F10` to open a Command Prompt window
+  - Type `start ms-cxh:localonly` and press Enter.
+    - A local account creation window appears.
+  - Alternatively type `OOBE\BYPASSNRO` and press Enter.
+    - The computer will reboot, allowing you to select **"I don't have internet"** and proceed with a local account.
 
 #### 4. Activate Windows
 
