@@ -22,6 +22,8 @@ Instructions on how to install and configure Windows 11 IoT Enterprise LTSC 24H2
 ### 4. [Better Windows Software](Better%20Windows%20Software.md)
 List of software to replace common Windows programs that share a common thread: open source or at least privacy-respecting, no upsell popups, and they just do the thing they should.
 
+### 5. [Windows and Linux dual-boot checklist](Windows%20and%20Linux%20dual-boot%20checklist.md)
+Checklist and troubleshooting help for dual-booting Windows 11 and Linux, especially for single-drive laptops.
 
 ---
 
