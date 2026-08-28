@@ -25,6 +25,10 @@ List of software to replace common Windows programs that share a common thread: 
 ### 5. [Windows and Linux dual-boot checklist](Windows%20and%20Linux%20dual-boot%20checklist.md)
 Checklist and troubleshooting help for dual-booting Windows 11 and Linux, especially for single-drive laptops.
 
+### 6. Advanced Windows cleanup
+- [How to delete old windows app installer files with InstallerClean](How%20to%20delete%20old%20windows%20app%20installer%20files%20with%20InstallerClean.md)
+- [How to delete old windows update files with dism](How%20to%20delete%20old%20windows%20update%20files%20with%20dism.md)
+  
 ---
 
 ## Contributing
