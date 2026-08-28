@@ -26,7 +26,9 @@ Checklist and troubleshooting help for dual-booting Windows 11 and Linux on a **
     *   Change your boot order back in the BIOS/UEFI settings because Windows aggressively forces itself to the top priority position.
         
 *   **Fix Time Drift (UTC vs. Local Time):** Windows tracks the hardware clock as Local Time, while Linux tracks it as UTC. Fix the resulting few-hour time shift between reboots by forcing Windows to use UTC via a registry entry, or setting Linux to use Local Time.
-    
+  
+*   **Watch Out for Windows Feature Updates:** Major Windows updates can occasionally overwrite the EFI boot manager and hide GRUB. Keep a bootable Linux live USB handy just in case you ever need to quickly restore your bootloader.
+
 
 ### Kubuntu-Specific Tips
 
@@ -47,9 +49,10 @@ During Windows setup, choose the following options when they are presented
 
 *	**"Where do you want to install Windows?"** - choose the unallocated space prepared earlier.
 
+After Windows is installed, make sure the following settings are disabled:
+
 *   **Disable "Fast Startup":** Turn this off in Windows Power Options. If left on, Windows places the drive and hardware (like your Wi-Fi card) into a hybrid hibernation state, making them unavailable or read-only when you boot into Linux. To disable Fast Startup, go to the search bar, type "Choose a power plan," and click "Open." Then, click "Choose what the power button does," select "Change settings that are currently unavailable," uncheck "Turn on fast startup," and click "Save changes."
     
 *   **Disable BitLocker:** Ensure device encryption/BitLocker is completely disabled in Windows. This avoids sudden lockout screens and 48-digit recovery key demands when you modify partition layouts or when Windows applies routine updates.
-   
-*   **Watch Out for Windows Feature Updates:** Major Windows updates can occasionally overwrite the EFI boot manager and hide GRUB. Keep a bootable Linux live USB handy just in case you ever need to quickly restore your bootloader.
+
     
