@@ -45,4 +45,5 @@ Using both tools provides a thorough cleanup of both types of installer clutter.
 
 * **Do not manually delete files** from `C:\\Windows\\Installer` using File Explorer. Deleting active `.msi` files manually will break your ability to uninstall, repair, or update those applications later.
 * Always rely on specialized utilities like `InstallerClean` that verify the Windows Installer database state before removing anything.
-* 
+
+
