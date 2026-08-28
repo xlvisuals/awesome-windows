@@ -48,6 +48,6 @@ Summary of Switches Used
     
 *   `/StartComponentCleanup`: Cleans up superseded components and reduces the size of the WinSxS directory.
     
-*   `/ResetBase`: Removes all base backups of superseded components, making the current update state permanent and maximizing disk space recovery. """
+*   `/ResetBase`: Removes all base backups of superseded components, making the current update state permanent and maximizing disk space recovery.
     
 
