@@ -47,7 +47,7 @@ During Windows setup, choose the following options when they are presented
 
 *	**"Where do you want to install Windows?"** - choose the unallocated space prepared earlier.
 
-*   **Disable "Fast Startup":** Turn this off in Windows Power Options. If left on, Windows places the drive and hardware (like your Wi-Fi card) into a hybrid hibernation state, making them unavailable or read-only when you boot into Linux.
+*   **Disable "Fast Startup":** Turn this off in Windows Power Options. If left on, Windows places the drive and hardware (like your Wi-Fi card) into a hybrid hibernation state, making them unavailable or read-only when you boot into Linux. To disable Fast Startup, go to the search bar, type "Choose a power plan," and click "Open." Then, click "Choose what the power button does," select "Change settings that are currently unavailable," uncheck "Turn on fast startup," and click "Save changes."
     
 *   **Disable BitLocker:** Ensure device encryption/BitLocker is completely disabled in Windows. This avoids sudden lockout screens and 48-digit recovery key demands when you modify partition layouts or when Windows applies routine updates.
    
