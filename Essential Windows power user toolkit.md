@@ -122,12 +122,14 @@ A curated directory of lightweight, open-source, and utility-driven applications
 - **Macrium Reflect Free:** Create and restore disks, partitions, or individual files and folders. The free edition has been discontinued but is still widely used. [https://www.majorgeeks.com/files/details/macrium\_reflect\_free\_edition.html](https://www.majorgeeks.com/files/details/macrium_reflect_free_edition.html)
 
 - **dism:** Windows built-in command to clean up superseded Windows Update patches. Open a Command Prompt or PowerShell as Administrator, then run
-  - dism.exe /Online /Cleanup-Image /StartComponentCleanup
+
+  `dism.exe /Online /Cleanup-Image /StartComponentCleanup`
   
-  If you want to make current updates permanent and reclaim maximum space, add the /ResetBase switch:
-  - dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
+  . If you want to make current updates permanent and reclaim maximum space, add the /ResetBase switch:
   
-  (note: this prevents rolling back previous Windows updates)
+  `dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase`
+  
+  (note: this prevents rolling back previous Windows updates).
 
 
 ## Productivity & documents
