@@ -2,7 +2,6 @@
 
 This guide covers how to reclaim disk space from the `C:\Windows\Installer` folder using **InstallerClean** (from `no-faff`), which targets orphaned installer files left behind by third-party applications.
 
----
 
 ## Overview
 
@@ -11,19 +10,6 @@ Every time you install, update, or patch third-party desktop applications (such 
 Over the years, as programs are uninstalled or updated, many of these files become **orphaned**—no longer tied to any active program on your system. Windows rarely cleans this folder automatically, causing it to bloat to massive sizes (often 10GB to 50GB+).
 
 `InstallerClean` safely queries the Windows Installer database to distinguish between active installer files and dead/orphaned files, allowing you to reclaim that lost space.
-
-
-## Important Distinction: InstallerClean vs. DISM
-
-* **InstallerClean (`C:\Windows\Installer`):** Cleans cached installation files for **third-party desktop apps and programs**.
-* **DISM (`WinSxS` folder):** Cleans up **core Windows operating system updates and system files**. 
-
-   ```cmd
-   DISM.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase
-   ```
-
-Using both tools provides a thorough cleanup of both types of installer clutter.
-
 
 ## How to Use InstallerClean Safely
 
