@@ -334,6 +334,8 @@ A curated list of free everyday software tools for Windows (files, documents, ph
 
 - [OBS Studio](https://obsproject.com/) – free and open-source screen–casting and live streaming/recording.
 
+- [Orkas](https://github.com/Orkas-AI/Orkas) – Open-source, local-first desktop AI workforce coordinated by a Commander through one chat. Uses your selected model provider or compatible local endpoint.
+
 - [Okular](https://okular.kde.org/) – free and open-source universal document viewer (pdf, ebooks, comics, markdown, images, help files). Download from [https://cdn.kde.org/ci-builds/graphics/okular/](https://cdn.kde.org/ci-builds/graphics/okular/) 
 
 - [OpenCPN](https://opencpn.org/OpenCPN/info/downloads.html) – free and open-source Chart Plotter Navigation, route planning and Grib viewer.
