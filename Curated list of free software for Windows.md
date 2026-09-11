@@ -232,6 +232,8 @@ A curated list of free everyday software tools for Windows (files, documents, ph
 
 - [HxD](https://mh-nexus.de/en/hxd/) – Hex file + disk Editor, free.
 
+- [IconFlow](https://github.com/mishzx/IconFlow) – free and open-source native WinUI 3 tool for changing, organizing, and safely restoring Windows folder and shortcut icons.
+
 - [ImgBurn](https://www.imgburn.com/) – free tool to read and write a wide range of image file formats – including BIN, CUE, DI, DVD, GI, IMG, ISO, MDS, NRG and PDI.
 
 - [InfraRecorder](http://infrarecorder.org/) or [CDBurnerXP](https://www.cdburnerxp.se/) – free CD/DVD burning solution.
