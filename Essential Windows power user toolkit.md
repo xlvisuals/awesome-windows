@@ -75,6 +75,8 @@ A curated directory of lightweight, open-source, and utility-driven applications
 
 ## Core system diagnosticians & runtimes
 
+- **LeanFPS:** MIT open-source game optimizer for Windows 10/11, written in Rust with egui. A ~6.5 MB native executable with reversible Windows tweaks and ETW-based FPS/1% low tracking; no .NET, WebView, or account required. Free core; optional US$19 one-time Pro license. [https://leanfps.com/](https://leanfps.com/) · [Source](https://github.com/Jamailar/leanfps)
+
 - **Sysinternals Suite:** Originally created by tech legends Mark Russinovich and Bryce Cogswell (now part of Microsoft), this is the gold standard for seeing exactly what the NT kernel is doing under the hood. It drills straight past the standard Windows UI to look directly at system hooks, threads, and processes in real time—making it easy to track background resource leaks or hidden malware infections. [https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite) 
 
 - **NirSoft NirLauncher:** Created and meticulously maintained by developer Nir Sofer, NirSoft provides the practical "Swiss Army Knife" for daily recovery, quick configuration adjustments, and network analysis. From revealing hidden Wi-Fi credentials and decoding Blue Screen minidump files to uncovering ghost USB device histories, NirSoft tools are universally lightweight, entirely portable, and completely free of adware. [https://launcher.nirsoft.net/](https://launcher.nirsoft.net/) 
