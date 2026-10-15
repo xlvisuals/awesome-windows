@@ -100,6 +100,7 @@ A curated list of free everyday software tools for Windows (files, documents, ph
 
 - [Burp Suite](https://portswigger.net/burp/communitydownload) – web security testing suite, free community edition.
 
+- [Calculate Bottleneck](https://calculatebottleneck.com) – free CPU/GPU bottleneck calculator with 940+ hardware models, per-game FPS estimates and shareable result links. No signup.
 - [Calibre](https://calibre-ebook.com/) – free Ebook manager and reader.
 
   - [DeDRM](https://github.com/noDRM/DeDRM_tools) – plugin to remove DRM from ebooks (e.g. Kindle). 
