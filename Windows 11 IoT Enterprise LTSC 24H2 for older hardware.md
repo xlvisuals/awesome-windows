@@ -114,7 +114,7 @@ Windows 11 includes two additional security layers to prevent malware from injec
 - Search for **cmd** in the Start menu, right-click it, and select "**Run as administrator**."
 - Paste this command and hit enter:
 ```cmd
-    reg add "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Enabled" /t REG\_DWORD /d 0 /f
+    reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Enabled" /t REG_DWORD /d 0 /f
 ```
 - The setting will take effect after you restart Windows
 
