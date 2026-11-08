@@ -157,6 +157,7 @@ A curated directory of lightweight, open-source, and utility-driven applications
     - [KeePassXC-Browser](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/)
     - [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
     - [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
+    - [Page to markdown](https://addons.mozilla.org/en-US/firefox/addon/page-to-markdown/)
       
 - **SumatraPDF:** A blazing-fast, incredibly lightweight document reader. Free from the resource-heavy bloat of standard PDF applications, it reads PDFs, ePubs, Mobi files, and comic books instantly while using negligible system RAM.  [https://www.sumatrapdfreader.org/](https://www.sumatrapdfreader.org/) 
 
