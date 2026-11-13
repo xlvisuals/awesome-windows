@@ -140,6 +140,8 @@ A curated list of free everyday software tools for Windows (files, documents, ph
 
 - [Dependencies Viewer](https://github.com/lucasg/Dependencies) – 64–bit rewrite of [Dependency Walker](https://www.dependencywalker.com/). Open source dependency walker.
 
+- [Codex Quota Overlay](https://github.com/cpys/codex-quota-overlay) – free and open-source Windows tray overlay and local dashboard for Codex quota windows, reset times, pacing, forecasts, and usage activity.
+
 - [DiskInternals Linux reader](https://www.diskinternals.com/linux-reader/) –– a free tool for extracting files from Linux and macOS drives.
 
 - [Dolphin](https://apps.kde.org/dolphin/), [Double Commander](https://doublecmd.sourceforge.io/), [FastCopy](https://fastcopy.jp/), [UltraCopier](https://ultracopier.herman-brule.com/) – free and open-source file copy programs that are much faster than Windows Explorer. Dolphin is the closest to macOS Finder, [download here](https://cdn.kde.org/ci-builds/system/dolphin/).
