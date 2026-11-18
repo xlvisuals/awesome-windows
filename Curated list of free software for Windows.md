@@ -300,6 +300,8 @@ A curated list of free everyday software tools for Windows (files, documents, ph
 
   - [Windows Update Restored](https://www.windowsupdaterestored.com/) – the same for Windows 95, NT, 98, ME, 2000 up to SP2.
 
+- [Leafable](https://hidaydream.cloud/leafable/en/) – Free Windows PDF organizer for merging, reordering, splitting, and compressing PDFs locally.
+
 - [LibreOffice](https://www.libreoffice.org/), and [OnlyOffice](https://www.onlyoffice.com/) – free and open-source office productivity software suite that can also create and edit PDF documents, including fillable forms.
 
 - [LMMS](https://lmms.io/) – free and open-source multichannel digital audio workstation (DAW) for music production by arranging samples.
