@@ -88,6 +88,8 @@ A curated list of free everyday software tools for Windows (files, documents, ph
 
 - [Autograph](https://www.maxon.net/en/autograph) - 2d/3d motion graphics software similar to Adobe After Effects. Free with account.
 
+- [AutoMD](https://automd.macnie.com) – free, local, ad-free Windows Markdown reader and lightweight editor.
+
 - [BleachBit](https://www.bleachbit.org/) – free and open-source disk space cleaner.
 
 - [Blender](https://www.blender.org/download/) – free and open-source 3D computer graphics software tool, often used for modeling.
@@ -536,7 +538,7 @@ A curated list of free everyday software tools for Windows (files, documents, ph
 | **Lightweight Image** | [Paint.NET](https://www.getpaint.net/index.html) | [Pinta](https://www.google.com/search?q=https://pinta-project.com/pintaproject/pinta/) | [Pinta](https://www.google.com/search?q=https://pinta-project.com/pintaproject/pinta/) / [KolourPaint](https://apps.kde.org/kolourpaint/) | [Pinta](https://www.google.com/search?q=https://pinta-project.com/pintaproject/pinta/) |
 | **Linux Drive Reader** | [DiskInternals Linux Reader](https://www.diskinternals.com/linux-reader/) | [FUSE](https://osxfuse.github.io/) / [Ext4fuse](https://github.com/gerard/ext4fuse) | (Native Support) | (Native Support) |
 | **Load Tester** | [JMeter](https://jmeter.apache.org/) | [JMeter](https://jmeter.apache.org/) | [JMeter](https://jmeter.apache.org/) | [JMeter](https://jmeter.apache.org/) |
-| **Markdown Editor** | [Ferrite](https://getferrite.dev/) | [MarkEdit](https://github.com/MarkEdit-app/MarkEdit), [Ferrite](https://getferrite.dev/) | [Ferrite](https://getferrite.dev/) | [Ferrite](https://getferrite.dev/) |
+| **Markdown Editor** | [Ferrite](https://getferrite.dev/) / [AutoMD](https://automd.macnie.com) | [MarkEdit](https://github.com/MarkEdit-app/MarkEdit), [Ferrite](https://getferrite.dev/) | [Ferrite](https://getferrite.dev/) | [Ferrite](https://getferrite.dev/) |
 | **Media Player** | [VLC](https://www.videolan.org/vlc/) | [VLC](https://www.videolan.org/vlc/) / [IINA](https://iina.io/) | [Dragon Player](https://apps.kde.org/dragonplayer/) / [VLC](https://www.videolan.org/vlc/) | [Clapper](https://www.google.com/search?q=https://github.com/Rafostar/Clapper) / [VLC](https://www.videolan.org/vlc/) |
 | **Media Server** | [Jellyfin](https://jellyfin.org/) | [Jellyfin](https://jellyfin.org/) | [Jellyfin](https://jellyfin.org/) | [Jellyfin](https://jellyfin.org/) |
 | **Mesh Processing** | [Meshlab](https://www.meshlab.net/) / [Meshmixer](https://www.softpedia.com/get/Multimedia/Graphic/Graphic-Editors/MeshMixer.shtml) | [Meshlab](https://www.meshlab.net/) | [Meshlab](https://www.meshlab.net/) | [Meshlab](https://www.meshlab.net/) |
